@@ -13,7 +13,7 @@ public class DatabaseConnection {
         String username = "sa";  // SQL Server username
         String password = "mindmill";  // SQL Server password
 
-        String url = "jdbc:sqlserver://" + host + ":" + port + ";databaseName=" + dbName;
+        String url = "jdbc:sqlserver://" + host + ":" + port + ";databaseName=" + dbName+";encrypt=false";
 
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");

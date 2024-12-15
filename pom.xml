@@ -36,6 +36,12 @@
         <version>4.0.1</version>  <!-- Use the latest version available -->
         <scope>provided</scope>
     </dependency>
+    <dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>10.2.0.jre8</version> <!-- You can use the latest version for your Java version -->
+</dependency>
+
     
   </dependencies>
   <build>

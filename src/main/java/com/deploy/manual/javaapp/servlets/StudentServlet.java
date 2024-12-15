@@ -14,7 +14,7 @@ import com.deploy.manual.javaapp.db.DatabaseConnection;
 /**
  * Servlet implementation class StudentServlet
  */
-@WebServlet("/StudentServlet")
+@WebServlet("/students")
 public class StudentServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

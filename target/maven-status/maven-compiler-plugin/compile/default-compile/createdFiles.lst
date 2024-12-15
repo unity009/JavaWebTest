@@ -1,0 +1,3 @@
+com\deploy\manual\javaapp\servlets\StudentServlet.class
+com\deploy\manual\javaapp\Calculator.class
+com\deploy\manual\javaapp\db\DatabaseConnection.class
